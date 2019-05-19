@@ -3,6 +3,7 @@ def roll_call_dwarves(array)
     puts "#{index + 1}. #{dwarf}"
   end
 end  
+roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
   
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |planeteer| planeteer_capitalize + "!" }
