@@ -1,4 +1,9 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves
+  hash = Hash.new
+%w(Doc Dopey Bashful Grumpy).each_with_index { |item|
+  hash[item] = index
+}
+hash   #=> {"Doc", "Dopey", "Bashful", "Grumpy"}# code an argument here
   # Your code here
 end
 
